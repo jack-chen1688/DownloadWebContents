@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        if let myURL = URL(string:"https://stackoverflow.com") {
+        if let myURL = URL(string:"http://stackoverflow.com") {
             webView.loadRequest(URLRequest(url: myURL))
             //webView.loadHTMLString("<H1>Hello</H1>", baseURL: nil)
         }
